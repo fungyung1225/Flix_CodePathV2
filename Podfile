@@ -6,6 +6,6 @@ target 'ex_Flix' do
   use_frameworks!
 
   # Pods for ex_Flix
-
+  pod "AlamofireImage"
 
 end
