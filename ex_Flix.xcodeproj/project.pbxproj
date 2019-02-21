@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CED33DAF221E49900042D124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED33DAE221E49900042D124 /* AppDelegate.swift */; };
-		CED33DB1221E49900042D124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED33DB0221E49900042D124 /* ViewController.swift */; };
 		CED33DB4221E49900042D124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED33DB2221E49900042D124 /* Main.storyboard */; };
 		CED33DB6221E49920042D124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED33DB5221E49920042D124 /* Assets.xcassets */; };
 		CED33DB9221E49920042D124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED33DB7221E49920042D124 /* LaunchScreen.storyboard */; };
+		CED33DC1221E55F00042D124 /* FlixController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED33DC0221E55F00042D124 /* FlixController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CED33DAB221E49900042D124 /* ex_Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex_Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED33DAE221E49900042D124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED33DB0221E49900042D124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED33DB3221E49900042D124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED33DB5221E49920042D124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED33DB8221E49920042D124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED33DBA221E49920042D124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED33DC0221E55F00042D124 /* FlixController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				CED33DAE221E49900042D124 /* AppDelegate.swift */,
-				CED33DB0221E49900042D124 /* ViewController.swift */,
 				CED33DB2221E49900042D124 /* Main.storyboard */,
 				CED33DB5221E49920042D124 /* Assets.xcassets */,
 				CED33DB7221E49920042D124 /* LaunchScreen.storyboard */,
 				CED33DBA221E49920042D124 /* Info.plist */,
+				CED33DC0221E55F00042D124 /* FlixController.swift */,
 			);
 			path = ex_Flix;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED33DB1221E49900042D124 /* ViewController.swift in Sources */,
+				CED33DC1221E55F00042D124 /* FlixController.swift in Sources */,
 				CED33DAF221E49900042D124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
