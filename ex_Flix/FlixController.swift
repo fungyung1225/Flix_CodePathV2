@@ -57,6 +57,10 @@ class FlixController: UIViewController, UITableViewDataSource, UITableViewDelega
         let title = movie["title"] as! String
         let dsc = movie["overview"] as! String
         
+        let baseUrl = ""
+        let posterPath = movie[""] as! String
+        let posterUrl = URL(String: baseUrl + posterPath)
+        
         cell.titleLbl.text = title
         cell.desLbl.text = dsc
         
